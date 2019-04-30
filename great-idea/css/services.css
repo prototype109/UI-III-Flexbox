@@ -63,6 +63,20 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+hr{
+    margin: 50px 0;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -74,18 +88,25 @@ h1, h2, h3, h4, h5 {
 
 header{
     display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
 }
 
 nav{
     display: flex;
+    justify-content: space-between;
+    width: 600px;
 }
 
-div{
+#description div{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     width: 450px;
-    border: 1px solid rgb(170, 169, 169);
-    background-color: rgb(170, 169, 169);
+    border: 1px solid black;
+    background-color: rgb(230, 228, 228);
+    padding: 20px;
 }
 
 #description{
@@ -93,5 +114,50 @@ div{
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-around;
-    height: 500px; 
+    height: 800px; 
+}
+
+#description p{
+    margin-bottom: 30px;
+}
+
+footer{
+    display: flex;
+}
+
+footer p{
+    max-width: 70%;
+    margin-bottom: 20px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+
+ul li{
+    list-style-type: square;
+    margin-top: 20px;
+}
+
+.services-header-img{
+    width: 100%;
+    margin: 20px 0; 
+}
+
+#copyright{
+    align-self: center;
+    margin-top: 100px;
+}
+
+p{
+    word-spacing: 5px;
+}
+
+
+button{
+	border-radius: 5%;
+    padding: 10px 40px;
+    background: white;
+    border: 1px solid black;
 }
