@@ -63,104 +63,102 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-
 a{
-	text-decoration: none;
-	color: grey;
-}
-
-.logo{
-	margin-right: 100px;
-}
-
-nav{
-	display: flex;
-	justify-content: space-between;
-	width: 500px;
-}
-
-hr{
-	margin: 10px;
-	width: 865px;
-	align-self: flex-end;
-}
-
-.container{
-	margin: 0 auto;
-	width: 950px;
-}
-
-button{
-	background-color: white;
-	border: 1px solid grey;
-	color: grey;
-	padding: 10px 40px;
+    text-decoration: none;
+    color: grey;
 }
 
 h1{
-	font-size: 75px;
+    font-size: 30px;
+    margin-top: 20px;
 }
 
+hr{
+    margin: 50px 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: none;
+    margin: 0 auto;
+	width: 950px;
+}
 
 header{
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
 }
 
-.Innovation{
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-	margin: 100px 0;
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
 }
 
-
-.biggerRightMargin{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+#description div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 450px;
+    border: 1px solid black;
+    background-color: rgb(230, 228, 228);
+    padding: 20px;
 }
 
-
-#contact{
-	display: flex;
-	flex-direction: column;
-	margin: 40px 0;
+#description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    height: 800px; 
 }
 
-#phoneNumber{
-	margin: 30px 0;
+#description p{
+    margin-bottom: 30px;
 }
 
-#Copyright{
-	margin-left: 40%;
+footer{
+    display: flex;
 }
 
-.first-paragraph-section{
-	display: flex;
-	margin: 50px 0;
-	justify-content: space-between;
+footer p{
+    max-width: 70%;
+    margin-bottom: 20px;
 }
 
-.second-paragraph-section{
-	display: flex;
-	margin: 50px 0;
+footer div{
+    display: flex;
+    flex-direction: column;
 }
 
-.second-paragraph-section p{
-	max-width: 250px;
+ul li{
+    list-style-type: square;
+    margin-top: 20px;
+}
+
+.services-header-img{
+    width: 100%;
+    margin: 20px 0; 
+}
+
+#copyright{
+    align-self: center;
+    margin-top: 100px;
 }
 
 p{
-	max-width: 400px;
+    word-spacing: 5px;
 }
 
-#firstParsec-secondPar{
-	margin-right: 110px;
-}
 
-#middleParagraph{
-	margin: 0 25px;
+button{
+	border-radius: 5%;
+    padding: 10px 40px;
+    background: white;
+    border: 1px solid black;
 }
+/**/
